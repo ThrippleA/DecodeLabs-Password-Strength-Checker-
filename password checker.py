@@ -41,7 +41,7 @@ if has_symbol:
 if has_uppercase:
     score += 1
 print("Password score:", score)
-if score < 2:
+if length < 8 or score < 2:
     print("Password Strength: Weak")
 elif score < 4:
     print("Password Strength: Medium")

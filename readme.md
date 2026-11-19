@@ -12,11 +12,15 @@ Special Characters:Checks for symbols such as @, #, $, and !.
 Uppercase Letters: Checks whether the password contains at least one uppercase letter.
 
 Password Strength Classification
-
+The program uses a scoring system based on four security criteria:
+   Password length (minimum 8 characters)
+   At least one number
+   At least one special character
+   At least one uppercase letter
 Based on the number of criteria met, the program classifies passwords as:
-Weak: Fewer than 2 criteria met.
-Medium: 2 or 3 criteria met.
-Strong: All 4 criteria met.
+Weak: Password is shorter than 8 characters or fewer than 2 criteria met.
+Medium: Password is at least 8 characters and 2 or 3 criteria are met.
+Strong: Password is at least 8 characters and all 4 criteria are met.
 
  Requirements
 Python 3.x
