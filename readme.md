@@ -13,6 +13,9 @@ Uppercase Letters: Checks whether the password contains at least one uppercase l
 Common password detection using a predefined list.
 Case-insensitive common password checking.
 Common passwords are classified as Weak, regardless of their complex score.
+Password feedback system that identifies missing security requirements.
+Provides suggestions for improving password strength.
+Warns users when a password appears in the common password list.
 
 Password Strength Classification
 The program uses a scoring system based on four security criteria:
