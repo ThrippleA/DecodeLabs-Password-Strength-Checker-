@@ -17,7 +17,7 @@ else:
     print("Contains a number: No")
 has_symbol = False
 for character in password:
-    if not character.isalnum():
+    if not character.isalnum() and not character.isspace():
         has_symbol = True
 if has_symbol:
     print("Contains a symbol: Yes")
