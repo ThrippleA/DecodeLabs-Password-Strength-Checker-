@@ -1,8 +1,20 @@
+common_passwords = [
+    "password123",
+    "12345678",
+    "qwerty123",
+    "admin123",
+    "password"
+]
 print("welcome to Decodelabs Password Checker")
 password= input("enter your password")
 length = len(password)
+is_common = password.lower() in common_passwords
 print("password recieved succesfully")
 print("password length:",length)
+if is_common:
+    print("Warning: This is a commonly used password")
+else:
+    print("This password is not in our common password list")
 if length < 8:
     print ("password is too short")
 else:
@@ -41,7 +53,10 @@ if has_symbol:
 if has_uppercase:
     score += 1
 print("Password score:", score)
-if length < 8 or score < 2:
+if is_common:
+    print("Password Strength: Weak")
+    print("Reason: This password is commonly used")
+elif length < 8 or score < 2:
     print("Password Strength: Weak")
 elif score < 4:
     print("Password Strength: Medium")

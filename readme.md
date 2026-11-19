@@ -10,6 +10,9 @@ Length: Checks whether the password contains at least 8 characters.
 Checks for at least one numerical digit.
 Special Characters:Checks for symbols such as @, #, $, and !.
 Uppercase Letters: Checks whether the password contains at least one uppercase letter.
+Common password detection using a predefined list.
+Case-insensitive common password checking.
+Common passwords are classified as Weak, regardless of their complex score.
 
 Password Strength Classification
 The program uses a scoring system based on four security criteria:
