@@ -6,16 +6,16 @@ The project demonstrates basic Python programming concepts and introduces the im
 
  Key Features
 The program checks passwords against four main criteria:
-Length: Checks whether the password contains at least 8 characters.
-Checks for at least one numerical digit.
-Special Characters:Checks for symbols such as @, #, $, and !.
-Uppercase Letters: Checks whether the password contains at least one uppercase letter.
-Common password detection using a predefined list.
-Case-insensitive common password checking.
-Common passwords are classified as Weak, regardless of their complex score.
-Password feedback system that identifies missing security requirements.
-Provides suggestions for improving password strength.
-Warns users when a password appears in the common password list.
+   Length: checks whether the password contains at least 8 characters.
+   Checks for at least one numerical digit.
+   Special Characters: checks for symbols such as @, #, $, and !.
+   Uppercase Letters: checks whether the password contains at least one uppercase letter.
+   Common password detection using a predefined list.
+   Case-insensitive common password checking.
+   Common passwords are classified as Weak, regardless of their complex score.
+   Password feedback system that identifies missing security requirements.
+   Provides suggestions for improving password strength.
+   Warns users when a password appears in the common password list.
 
 Password Strength Classification
 The program uses a scoring system based on four security criteria:
@@ -55,7 +55,7 @@ Application Used
 
 Lesson Learned:
 Through this project, I practised:
- Python conditional statements.
+Python conditional statements.
 Loops and string methods.
 Boolean variables.
 User input and output.
